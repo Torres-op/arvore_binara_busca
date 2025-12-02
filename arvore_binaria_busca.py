@@ -166,7 +166,7 @@ class ArvoreGUI:
         left_frame = tk.Frame(main_frame, bg='#334155', relief=tk.RAISED, borderwidth=2)
         left_frame.pack(side=tk.LEFT, fill=tk.BOTH, padx=(0, 5), pady=0)
         
-        title = tk.Label(left_frame, text="🌳 Árvore AVL", 
+        title = tk.Label(left_frame, text="🌳 Árvore Binária de Busca", 
                         font=('Arial', 20, 'bold'), 
                         bg='#334155', fg='white')
         title.pack(pady=15)
